@@ -1,4 +1,4 @@
-# Harjotteliproggis
+# Harjotteliproggis: Todo-appseja
 
 ## Kerrattavia juttuja
 
@@ -11,6 +11,16 @@
 - Microservice-arkkitehtuurit
 - JWT-tokenit ja autentikaatiohommat
 - Konttien käyttö ja DevOps-hommat
+
+## Testirepoja
+
+- https://github.com/Zeukkari/postgres-express-node-tutorial
+- https://github.com/Zeukkari/user-authentication-nodejs
+
+## Devausserveri
+
+- https://sample-frontend-zeukkari.herokuapp.com
+
 
 ## Resursseja
 
