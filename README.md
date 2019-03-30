@@ -43,6 +43,10 @@ Pilvihommia:
 - https://docs.microsoft.com/en-gb/learn/paths/azure-fundamentals/
 - https://github.com/haraldfianbakken/MCW-Modern-cloud-apps/
 
+Arkkitehtuureja:
+
+- https://auth0.com/docs/architecture-scenarios
+
 Backend-devausta:
 
 Node.js + Express + SQL:
