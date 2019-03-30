@@ -1,13 +1,31 @@
-// {type:class}
-// {direction:topDown}
+@startuml
+title Arkkitehtuuri
 
-[Web Client|React;Redux;Material-UI]- HTTP[API Gateway|Node.js;Express]
+node "WebApp" {
+  [Web App]
+  [API Gateway]
+}
 
+node "TodoService" {
+  [Todo Service]
+  database "Postgres" {
+    [Todo Storage]
+  }
+}
 
-[Web Client]Auth->[Auth Server|Auth0]
-[Auth Server]JWT ->[Web Client]
-[Auth Server]-[note: Users {bg: white}]
+node "AuthService" {
+  [Auth Service]
+  database {
+    [Users]
+  }
+}
 
+[Web App] <--> [API Gateway] : HTTP
+[API Gateway] -right-> [Auth Service] : Auth
+[Auth Service] -left-> [API Gateway] : JWT
+[Web App] .. [Auth Service]
+[API Gateway] <--> [Todo Service] : REST
+[Todo Service] - [Todo Storage]
+[Auth Service] - [Users]
 
-[API Gateway]- REST[Todo Service|Node.js;Express;Sequalize;Postgres]
-[Todo Service]-[note: Todo Storage {bg: white}]
+@enduml
