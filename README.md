@@ -40,3 +40,21 @@ Node.js + Express + SQL:
 Node.js + Express + NoSQL:
 
 - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose
+
+## Arkkitehtuuri
+
+```yuml
+// {type:class}
+// {direction:topDown}
+
+[Web Client|React;Redux;Material-UI]- HTTP[API Gateway|Node.js;Express]
+
+
+[Web Client]Auth->[Auth Server|Auth0]
+[Auth Server]JWT ->[Web Client]
+[Auth Server]-[note: Users {bg: white}]
+
+
+[API Gateway]- REST[Todo Service|Node.js;Express;Sequalize;Postgres]
+[Todo Service]-[note: Todo Storage {bg: white}]
+```
