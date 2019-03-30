@@ -1,4 +1,4 @@
-# Harjotteliproggis: Todo-appseja
+# Harjotteluproggis: Todo-appseja
 
 ## Kerrattavia juttuja
 
@@ -65,7 +65,7 @@ Node.js + Express + NoSQL:
 
 ## API
 
-### initial users and rols step
+### initial users and roles step
 
 > 1.  post `/api/initialize` to create roles and super admin account
 > 2.  post `api/users` - create new account
