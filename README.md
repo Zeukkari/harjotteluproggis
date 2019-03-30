@@ -18,12 +18,11 @@ PlantUML:
 
 - https://stackoverflow.com/questions/32203610/how-to-integrate-uml-diagrams-into-gitlab-or-github
 - https://real-world-plantuml.com
+- https://plantuml.com/
 
 ~~yUML~~
 
-LucidChart:
-
-- https://www.lucidchart.com/
+~~LucidChart~~
 
 Tietokantamalleja:
 
