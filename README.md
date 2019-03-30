@@ -36,20 +36,19 @@ PlantUML:
 
 Tietokantamalleja:
 
-- Tietokantamalleja: http://www.databaseanswers.org/data_models/
--
+- http://www.databaseanswers.org/data_models/
 
-Azure:
+Pilvihommia:
 
 - https://docs.microsoft.com/en-gb/learn/paths/azure-fundamentals/
 - https://github.com/haraldfianbakken/MCW-Modern-cloud-apps/
 
-Node.js + Express + SQL:
+Backend-devausta:
 
+Node.js + Express + SQL:
 - https://scotch.io/tutorials/getting-started-with-node-express-and-postgres-using-sequelize
 
 Node.js + Express + NoSQL:
-
 - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose
 
 ## Arkkitehtuuri
