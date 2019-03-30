@@ -43,18 +43,4 @@ Node.js + Express + NoSQL:
 
 ## Arkkitehtuuri
 
-```yuml
-// {type:class}
-// {direction:topDown}
-
-[Web Client|React;Redux;Material-UI]- HTTP[API Gateway|Node.js;Express]
-
-
-[Web Client]Auth->[Auth Server|Auth0]
-[Auth Server]JWT ->[Web Client]
-[Auth Server]-[note: Users {bg: white}]
-
-
-[API Gateway]- REST[Todo Service|Node.js;Express;Sequalize;Postgres]
-[Todo Service]-[note: Todo Storage {bg: white}]
-```
+![Arkkitehtuuri](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/Zeukkari/harjotteluproggis/master/arkkitehtuuri.yuml)
