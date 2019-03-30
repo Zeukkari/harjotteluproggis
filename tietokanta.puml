@@ -1,0 +1,48 @@
+@startuml
+
+!define Table(name,desc) class name as "desc" << (T,#FFAAAA) >>
+!define primary_key(x) <b>x</b>
+!define unique(x) <color:green>x</color>
+!define not_null(x) <u>x</u>
+
+hide methods
+hide stereotypes
+
+' entities
+
+Table(List, "list") {
+primary_key(id) INTEGER
+name TEXT
+user_id INTEGER
+}
+
+Table(Role, "role") {
+primary_key(id) INTEGER
+type INTEGER
+level INTEGER
+}
+
+Table(User, "user") {
+primary_key(id) INTEGER
+unique(username) TEXT
+display_name TEXT
+password TEXT
+role_id INTEGER
+}
+
+Table(Task, "task") {
+primary_key(id) INTEGER
+completed BOOL
+description TEXT
+list_id INTEGER
+}
+
+
+' relations
+
+
+List "1" --> "0..N" Task
+User "1" --> "*" List
+User -- Role
+
+@enduml

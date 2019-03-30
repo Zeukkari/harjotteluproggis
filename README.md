@@ -45,3 +45,7 @@ Node.js + Express + NoSQL:
 ## Arkkitehtuuri
 
 ![](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/Zeukkari/harjotteluproggis/master/arkkitehtuuri.puml)
+
+## ER-malli
+
+![](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/Zeukkari/harjotteluproggis/master/tietokanta.puml)
