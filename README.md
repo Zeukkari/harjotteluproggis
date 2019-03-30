@@ -14,10 +14,12 @@
 
 ## Resursseja
 
-yUML:
+PlantUML:
 
-- https://github.com/jaime-olivares/yuml-diagram
-- https://yuml.me
+- https://stackoverflow.com/questions/32203610/how-to-integrate-uml-diagrams-into-gitlab-or-github
+- https://real-world-plantuml.com
+
+~~yUML~~
 
 LucidChart:
 
