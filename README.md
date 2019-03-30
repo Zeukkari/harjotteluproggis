@@ -44,4 +44,4 @@ Node.js + Express + NoSQL:
 
 ## Arkkitehtuuri
 
-![](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/Zeukkari/harjotteluproggis/master/arkkitehtuuri.txt)
+![](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/Zeukkari/harjotteluproggis/master/arkkitehtuuri.puml)
